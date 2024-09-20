@@ -4,7 +4,7 @@ XML Summer School resources for the Advanced XSLT cource
 
 To get started open a terminal and run the following command:
 
-`git clone git@github.com:ond1/xmlss.git`
+`git clone https://github.com/ond1/xmlss.git`
 
 
 ## Commands from the slides:
