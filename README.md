@@ -1,2 +1,3 @@
 # XML Summer School
-Oxford XML Summer School Resources for the Advanced XSLT cource
+https://xmlsummerschool.org/
+XML Summer School resources for the Advanced XSLT cource
