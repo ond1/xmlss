@@ -2,13 +2,17 @@
 https://xmlsummerschool.org/
 XML Summer School resources for the Advanced XSLT cource
 
+To get started open a terminal and run the following command:
+
+`git clone https://github.com/ond1/xmlss.git`
+
 
 ## Commands from the slides:
 
 
-java -cp saxon-he-12.5.jar net.sf.saxon.Transform -s:books.xml -xsl:books.xsl
+`java -cp saxon-he-12.5.jar net.sf.saxon.Transform -s:books.xml -xsl:books.xsl`
 
-java -cp .:saxon-he-12.5.jar net.sf.saxon.Gizmo  -s:book.xml
+`java -cp .:saxon-he-12.5.jar net.sf.saxon.Gizmo  -s:book.xml`
 
 
 ## Documentation
