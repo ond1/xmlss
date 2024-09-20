@@ -15,8 +15,9 @@ def main():
 
     executable = xslt_proc.compile_stylesheet(stylesheet_file=books_xsl)
     executable.set_initial_match_selection(xdm_value=xml_doc)
-    #executable.set_global_context_item(xdm_item=xml_doc) # This line is needed to avoid error
-    executable.apply_templates_returning_file(xdm_value=xml_doc, output_file='books.html')
+    executable.set_global_context_item(xdm_item=xml_doc) # This line is needed to avoid error
+    result = executable.apply_templates_returning_value(xdm_value=xml_doc)
+    print(result.head.children[0].children[2])
 
 if __name__ == "__main__":
     main()
